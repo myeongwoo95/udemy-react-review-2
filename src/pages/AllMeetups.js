@@ -7,7 +7,6 @@ function AllMeetups() {
 
   useEffect(() => {
     setIsLoading(true);
-    console.log("hello world");
 
     fetch(
       "https://react-getting-started-2bdce-default-rtdb.asia-southeast1.firebasedatabase.app/meetups.json"
